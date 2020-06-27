@@ -83,10 +83,8 @@ def main():
   print("to have successfully evolved.")
   print("DEPENDENT Experiment (1000 iterations)")
   print("-   6 genes: 10 Myears")
-  print("-   7 genes: 80 Myears")
-  print("-  10 genes:")
-  print("")
-  print("")
+  print("-   7 genes: 100 Myears")
+  print("-  10 genes: 100 Byears (too long to calc: ~11.6 days)")
   print("")
   print("INDEPENDENT Experiment (1000 iterations)")
   print("-   6 genes: 600 years")
@@ -106,7 +104,7 @@ def main():
 # functions
 #=========================================
 
-intlen = 10
+intlen = 7
 intmin = pow(10,intlen-1)
 intmax = pow(10,intlen)-1
 iter = 100
