@@ -15,6 +15,8 @@
 # https://www.pnas.org/content/107/52/22454.full.pdf
 # where the number of guesses is found to be
 # K^L or for our model 10(numbers)^number_genes
+# see also my post
+# 
 #====================================
 # Code style: 
 # Classes - CamelCase 
@@ -54,15 +56,15 @@ def main():
 
   # exec
   print("--- Experiment Intro ---")
-  print("Both experiments compute zero time for natural selection")
+  print("Both experiments compute average number of mutations for natural selection")
   print("so that the number of mutations required for the experiment must")
-  print("be multiplied by the time natural selection to confirm the mutated")
+  print("be multiplied by the time natural selection would take to confirm the mutated")
   print("gene to be successful (i.e. becoming prevalent among a population).")
   print("In best case this would be one successful mutation every 10 years, the obtained")
   print("average mutations need to be multiplied by 10 years.")
-  print("Humans have 20 - 25 000 genes.")
-  print("Simple organisms have some 4 000 genes.")
-  print("Minimum genes in single-cell organisms is 300.")
+  print("- Humans have 20 - 25 000 genes.")
+  print("- Simple organisms have some 4 000 genes.")
+  print("- Minimum genes in single-cell organisms is 300.")
   print("Here we are satisfied with the comparison of average times")
   print("for finding 10 successful genes.")
   print("")
@@ -223,11 +225,11 @@ def evolveProgressive():
 
 def evolveProgressiveMulti():
   print("--- INDEPENDENT Experiment ---")
-  print("This INDEPENDENT experiment creates each successful genre one by one.")
+  print("This INDEPENDENT experiment creates each successful gene one by one.")
   print("We select a large random integer representing our evolved organism.")
   print("Each character represents one successful gene.")
   print("Here, one mutated gene is only successful independently of other genes")
-  print("success which has previously been proven by natural selection.")
+  print("success which has previously been affirmed by natural selection.")
   print("This supports the hypothesis for high probability of evolution")
   print("for a large diversity of organisms.")
   print("This experiment proves, that evolution time is linear to the")
